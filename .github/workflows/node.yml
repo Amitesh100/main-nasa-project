@@ -16,4 +16,5 @@ jobs:
       - run: npm install
       - run: npm install -g react-scripts
       - run: npm install react@latest
+      - run: npm install react-router-dom
       - run: npm run build --prefix client
